@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h3>Contact us</h3>
+  <ul>
+    <p>10909 160th CT NE Redmond WA 98052</p>
+    <p>email: kmasude@gmail.com</p>
+    <p>Cell No.: +1 425 503 8625</p>
+  </ul>
+  <hr>
+  <h3>Your contact details</h3>
+  <form action="mailto:kmasude@gmail.com" method="post" encoding type="text/plain">
+    <label for="">Your Name: </label><br>
+    <input type="text" name="YourName" value="">
+    <br><br>
+    <label for="">Your email Address:</label><br>
+    <input type="email" name="YourEmail" value=""><br><br>
+    <label for="">Your message:</label><br>
+    <textarea name="yourMessage" rows="15" cols="80"></textarea>
+    <br><br>
+    <label for="">Do you want to sign up to the email list:</label>
+    <input type="checkbox" name="" value=""><br><br>
+
+    <label for="telNo">Phone number:</label>
+    <input id="telNo" name="telNo" type="tel">
+    <p>Please select your preferred contact method:</p>
+    <div>
+      <input type="radio" id="contactChoice1" name="contact" value="email" checked>
+      <label for="contactChoice1">Email</label>
+
+      <input type="radio" id="contactChoice2" name="contact" value="phone">
+      <label for="contactChoice2">Phone</label>
+
+      <input type="radio" id="contactChoice3" name="contact" value="mail">
+      <label for="contactChoice3">Mail</label>
+    </div><br>
+    <input type="submit" name="">
+    <br>
+  </form><br>
+</body>
+
+</html>
